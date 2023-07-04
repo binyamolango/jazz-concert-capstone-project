@@ -75,7 +75,6 @@ img {
   font-size: 2rem;
   text-transform: uppercase;
   background-image: url(images/backgrounds/GLITTER-RED-EBC-800_300x300.webp);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -88,7 +87,7 @@ img {
 }
 
 .concert-date {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .concert-location {
@@ -231,4 +230,31 @@ img {
 .footer {
   background: var(--secondary-color);
   color: var(--primary-color);
+  padding: 2em 1em;
+}
+
+.footer-row {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  gap: 0.25em;
+  align-items: center;
+}
+
+.logo-img-cont {
+  width: 40%;
+}
+
+.logo-title {
+  font-family: 'cocogoose', sans-serif;
+}
+
+.rights {
+  width: 45%;
+  font-size: 0.75rem;
+  opacity: 0.7;
 }
