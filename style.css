@@ -6,19 +6,83 @@
   --highlight-color: #ec5242;
 }
 
-/* font-family: "lato", sans-serif;
-font-weight: 400;
-font-style: normal; */
-
-body {
-  background: lightblue;
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-h1 {
-  font-family: 'cocogoose', sans-serif;
+body {
+  font-family: "lato", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 3.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.0125cm;
+  color: var(--primary-color);
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.head {
+  background-image: url(images/backgrounds/music-background-notes-beige-40726604.webp);
+}
+
+.header {
+  margin-bottom: 2.5em;
+}
+
+.ham-btn {
+  width: 8%;
+  margin: 1em 0 0 1.5em;
+  opacity: 0.6;
+}
+
+.greeting-title,
+.main-title {
   color: var(--highlight-color);
+}
+
+.main-title,
+.concert-date {
+  font-family: 'cocogoose', sans-serif;
+}
+
+.main-title {
+  font-size: 1.75rem;
   text-transform: uppercase;
+}
+
+.desc-container {
+  border: 4px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1em;
+  margin-bottom: 0.75em;
+}
+
+.concert-date,
+.greeting-title {
+  opacity: 0.8;
+}
+
+.concert-location {
+  font-size: 1.125rem;
+}
+
+.headline {
+  padding-bottom: 4em;
 }
