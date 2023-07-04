@@ -199,3 +199,36 @@ img {
   background: var(--secondary-color);
   margin: 0.75em 0;
 }
+
+/* Style partner section */
+
+.partner {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 2em 0.75em;
+}
+
+.line3 {
+  opacity: 0.4;
+}
+
+.partner-row {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2em;
+}
+
+.partner-logo-cont {
+  width: 20%;
+}
+
+.partner-logo {
+  opacity: 0.6;
+}
+
+/* style footer section */
+
+.footer {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
