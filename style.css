@@ -173,3 +173,29 @@ img {
 .featured {
   padding: 2em 0.75em;
 }
+
+.musician-img-cont {
+  width: 50%;
+}
+
+.musician-desc {
+  width: 100%;
+}
+
+.musician-name {
+  font-size: 1.125rem;
+}
+
+.musician-title,
+.musician-detail {
+  font-size: 0.75rem;
+}
+
+.musician-title {
+  color: var(--highlight-color);
+}
+
+.line2 {
+  background: var(--secondary-color);
+  margin: 0.75em 0;
+}
