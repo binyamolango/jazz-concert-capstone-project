@@ -136,7 +136,7 @@ img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 1em;
+  gap: 0.75em;
   background: rgba(255, 255, 255, 0.1);
   width: 100%;
   min-height: 120px;
@@ -149,7 +149,7 @@ img {
 
 .card-title {
   color: var(--highlight-color);
-  width: 65%;
+  width: 40%;
   font-size: 1.25rem;
 }
 
