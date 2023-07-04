@@ -167,3 +167,9 @@ img {
   margin-top: 1.5em;
   padding: 1em 2em;
 }
+
+/* Style featured musician list */
+
+.featured {
+  padding: 2em 0.75em;
+}
