@@ -15,8 +15,8 @@
 }
 
 body {
-  font-family: "lato", sans-serif;
-  font-weight: 400;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 1rem;
   letter-spacing: 0.0125cm;
@@ -84,11 +84,21 @@ img {
   color: transparent;
 }
 
+.main-title-about {
+  color: var(--highlight-color);
+  background-image: none;
+  background-clip: unset;
+}
+
 .desc-container {
   border: 4px solid #fff;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.6);
   padding: 0.5em;
   margin-bottom: 0.75em;
+}
+
+.desc-container-about {
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .concert-date {
@@ -101,6 +111,27 @@ img {
 
 .headline {
   padding-bottom: 4em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.concert-contact-cont {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.concert-contact,
+.concert-email-par {
+  font-size: 0.75rem;
+  line-height: 0.5cm;
+}
+
+.concert-email {
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--primary-color);
 }
 
 /* main program style */
@@ -231,7 +262,7 @@ img {
 }
 
 .partner-logo {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 /* style footer section */
