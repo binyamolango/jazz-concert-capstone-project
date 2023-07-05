@@ -251,8 +251,8 @@ img {
 
 .logo-section {
   padding: 2em 0.75em;
-  border-top: 2px solid rgba(39, 42, 49, 0.1);
-  border-bottom: 2px solid rgba(39, 42, 49, 0.1);
+  border-top: 2px solid rgba(39, 42, 49, 0.05);
+  border-bottom: 2px solid rgba(39, 42, 49, 0.05);
 }
 
 .line4 {
@@ -270,7 +270,12 @@ img {
   margin: 0 auto;
   margin-top: 1.5em;
   max-width: 550px;
-  border: 2px solid rgba(39, 42, 49, 0.1);
+  border: 2px solid rgba(39, 42, 49, 0.05);
+}
+
+.logo-img-cont {
+  width: 40%;
+  min-width: 15px;
 }
 
 .logo-section-logo .logo-img-cont {
@@ -284,6 +289,10 @@ img {
   max-width: 100px;
 }
 
+.logo-title {
+  font-family: 'cocogoose', sans-serif;
+}
+
 .logo-title-cont {
   width: 100%;
 }
@@ -294,13 +303,17 @@ img {
   font-family: 'lato', sans-serif;
 }
 
-.logo-title-cont .logo-title span{
+.overlay-text span {
+  font-size: 2rem;
+}
+
+.logo-title-cont .logo-title span {
   font-size: 2rem;
 }
 
 .logo-date-cont {
-  border-bottom: 2px solid rgba(39, 42, 49, 0.1);
-  border-top: 2px solid rgba(39, 42, 49, 0.1);
+  border-bottom: 2px solid rgba(39, 42, 49, 0.05);
+  border-top: 2px solid rgba(39, 42, 49, 0.05);
   width: fit-content;
 }
 
@@ -344,10 +357,6 @@ img {
   justify-content: center;
   color: var(--secondary-color);
   font-size: 0.75rem;
-}
-
-.overlay-text span {
-  font-size: 2rem;
 }
 
 .past-concert-col:hover {
@@ -398,15 +407,6 @@ img {
   display: flex;
   gap: 0.25em;
   align-items: center;
-}
-
-.logo-img-cont {
-  width: 40%;
-  min-width: 15px;
-}
-
-.logo-title {
-  font-family: 'cocogoose', sans-serif;
 }
 
 .rights {
