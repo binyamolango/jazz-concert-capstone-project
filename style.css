@@ -41,7 +41,7 @@ img {
 
 .container {
   margin: 0 auto;
-  max-width: 550px;
+  max-width: 600px;
 }
 
 /* header and headline style */
@@ -117,9 +117,12 @@ img {
   text-align: center;
 }
 
-.concert-contact-cont {
+.concert-contact-cont,
+.logo-section-cont,
+.past-concert-cont {
   width: 80%;
   margin: 0 auto;
+  max-width: 550px;
 }
 
 .concert-contact,
@@ -241,6 +244,11 @@ img {
 
 /* style logo section of about page */
 
+.logo-section-cont {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .logo-section {
   padding: 2em 0.75em;
   border-top: 2px solid rgba(39, 42, 49, 0.1);
@@ -259,7 +267,9 @@ img {
   align-items: center;
   gap: 0.5em;
   padding: 2em 1em;
+  margin: 0 auto;
   margin-top: 1.5em;
+  max-width: 550px;
   border: 2px solid rgba(39, 42, 49, 0.1);
 }
 
@@ -296,6 +306,52 @@ img {
 
 .logo-date {
   font-size: 0.75rem;
+}
+
+/* Style past-concerts section */
+
+.past-concert {
+  padding: 2em 0.75em;
+}
+
+.past-concert-row {
+  gap: 1.25em;
+  margin-top: 1em;
+}
+
+.past-concert-col {
+  background: none;
+  position: relative;
+  padding: 0;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(236, 82, 66, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-text {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 0.75rem;
+}
+
+.overlay-text span {
+  font-size: 2rem;
+}
+
+.past-concert-col:hover {
+  position: static;
 }
 
 /* Style partner section */
