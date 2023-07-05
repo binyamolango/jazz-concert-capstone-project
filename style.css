@@ -239,6 +239,65 @@ img {
   margin: 0.75em 0;
 }
 
+/* style logo section of about page */
+
+.logo-section {
+  padding: 2em 0.75em;
+  border-top: 2px solid rgba(39, 42, 49, 0.1);
+  border-bottom: 2px solid rgba(39, 42, 49, 0.1);
+}
+
+.line4 {
+  width: 6%;
+  opacity: 0.5;
+  margin: 1em auto;
+}
+
+.logo-section-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 2em 1em;
+  margin-top: 1.5em;
+  border: 2px solid rgba(39, 42, 49, 0.1);
+}
+
+.logo-section-logo .logo-img-cont {
+  width: 50%;
+  text-align: right;
+}
+
+.logo-section-logo .logo-img {
+  width: 70%;
+  min-width: 30px;
+  max-width: 100px;
+}
+
+.logo-title-cont {
+  width: 100%;
+}
+
+.logo-title-cont .logo-title {
+  line-height: 0.75cm;
+  font-size: 1.5rem;
+  font-family: 'lato', sans-serif;
+}
+
+.logo-title-cont .logo-title span{
+  font-size: 2rem;
+}
+
+.logo-date-cont {
+  border-bottom: 2px solid rgba(39, 42, 49, 0.1);
+  border-top: 2px solid rgba(39, 42, 49, 0.1);
+  width: fit-content;
+}
+
+.logo-date {
+  font-size: 0.75rem;
+}
+
 /* Style partner section */
 
 .partner {
