@@ -425,7 +425,6 @@ a {
 /* style footer section */
 
 .footer {
-  background: var(--secondary-color);
   color: var(--primary-color);
   padding: 2.5em 1em;
 }
@@ -715,5 +714,14 @@ a {
     gap: 1.5em;
     justify-content: center;
     margin: 3em auto;
+  }
+
+  .footer {
+    background: var(--secondary-color);
+  }
+
+  .footer-about {
+    background: var(--primary-color);
+    color: var(--secondary-color);
   }
 }
