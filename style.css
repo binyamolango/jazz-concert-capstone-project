@@ -140,7 +140,7 @@ a {
 }
 
 .concert-location {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: italic;
 }
 
@@ -676,6 +676,10 @@ a {
     width: 85%;
     max-width: 1000px;
     padding: 1.5em 3em;
+  }
+
+  .concert-location {
+    font-size: 1.325;
   }
 
   .concert-contact-cont {
