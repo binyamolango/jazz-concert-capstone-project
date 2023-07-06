@@ -15,7 +15,6 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
-  letter-spacing: 0.0125cm;
   color: var(--primary-color);
   line-height: 1.5;
 }
@@ -124,9 +123,9 @@ a {
 }
 
 .desc-container {
-  border: 4px solid rgba(183, 174, 174, 0.075);
+  border: 4px solid rgba(255, 255, 255, 0.8);
   background: rgba(255, 255, 255, 0.7);
-  padding: 1.5em 1.25em;
+  padding: 0.75em 1.25em;
   margin: 1.5em 0;
 }
 
@@ -135,11 +134,13 @@ a {
 }
 
 .concert-date {
+  font-size: 1.75rem;
   opacity: 0.9;
 }
 
 .concert-location {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
+  font-style: italic;
 }
 
 .headline {
@@ -187,9 +188,10 @@ a {
 }
 
 .line {
-  height: 5px;
+  height: 2px;
   background: var(--highlight-color);
   width: 10%;
+  max-width: 50px;
   margin: 0.5em auto 1.5em auto;
   opacity: 0.7;
 }
@@ -265,6 +267,7 @@ a {
 .line2 {
   background: var(--secondary-color);
   margin: 0.75em 0;
+  max-width: 25px;
 }
 
 /* style logo section of about page */
@@ -282,6 +285,7 @@ a {
 
 .line4 {
   width: 6%;
+  max-width: 25px;
   opacity: 0.5;
   margin: 1em auto;
 }
@@ -417,7 +421,6 @@ a {
 /* style footer section */
 
 .footer {
-  background: var(--secondary-color);
   color: var(--primary-color);
   padding: 2em 1em;
 }
@@ -432,6 +435,8 @@ a {
   display: flex;
   gap: 0.25em;
   align-items: center;
+  max-width: 250px;
+  min-width: 180px;
 }
 
 .rights {
@@ -451,7 +456,7 @@ a {
 
   .container {
     width: 80%;
-    max-width: 1080px;
+    max-width: 1280px;
   }
 
   .header {
@@ -488,6 +493,7 @@ a {
 
   .main-logo-cont {
     width: 20%;
+    max-width: 150px;
   }
 
   .header-bottom .row {
@@ -501,5 +507,86 @@ a {
 
   .nav-list {
     gap: 2.5rem;
+  }
+
+  .headline {
+    padding: 5em 0;
+  }
+
+  .headline .cont {
+    width: 80%;
+    max-width: 1280px;
+  }
+
+  .greeting-title {
+    font-size: 2rem;
+  }
+
+  .main-title {
+    font-size: 3rem;
+  }
+
+  .desc-container {
+    width: 60%;
+  }
+
+  .main {
+    padding: 3em 0;
+  }
+
+  .main-program {
+    font-size: 1.75rem;
+  }
+
+  .main .row {
+    margin: 3em auto;
+    gap: 0.25em;
+    justify-content: center;
+  }
+
+  .main .col {
+    display: block;
+    width: 19%;
+    text-align: center;
+  }
+
+  .card-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-title {
+    width: 100%;
+    margin: 0.25em 0;
+  }
+
+  .btn-cont {
+    margin-bottom: 2.5em;
+  }
+
+  .join-btn {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    text-decoration: underline;
+    background: none;
+    padding: 0;
+    font-size: 1.25rem;
+  }
+
+  .featured .col {
+    width: 40%;
+  }
+
+  .featured .row {
+    margin: 2.5em 0;
+  }
+
+  .musician-name {
+    font-size: 1.25rem;
+  }
+
+  .musician-title,
+  .musician-detail {
+    font-size: 1rem;
   }
 }
