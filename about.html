@@ -12,14 +12,51 @@
     <script src="https://kit.fontawesome.com/1ed5b0f4f6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="head">
-        <header class="header">
+    <header class="header hidden">
+        <div class="header-top">
+            <div class="container row">
+                <ul class="social-list col">
+                    <li class="social-item"><i class="fa-brands fa-facebook-f social-icon"></i></li>
+                    <li class="social-item"><i class="fa-brands fa-twitter social-icon"></i></li>
+                </ul>
+
+                <ul class="other-list col">
+                    <li class="other-item"><a href="#" class="other-link">English</a></li>
+                    <li class="other-item"><a href="#" class="other-link">My page</a></li>
+                    <li class="other-item"><a href="#" class="other-link">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="header-bottom">
+            <div class="container row">
+                <div class="main-logo-cont">
+                    <a href="index.html" class="main-logo-link">
+                        <img src="images/logos/IJD-removebg-preview-crop.png" alt="main-logo-image" class="main-logo">
+                    </a>
+                </div>
+
+                <nav class="nav">
+                    <ul class="nav-list row">
+                        <li class="nav-item"><a href="about.html" class="nav-link red">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sponsor</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link red red-border">IJD Campaign</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="head headline">
+        <header class="header unhidden">
             <button class="ham-btn">
                 <img src="images/icons/hamburger-icon.png" alt="hamburger-icon" class="ham-img">
             </button>
         </header>
-
-        <section class="headline cont text-center">
+        <div class="cont text-center">
             <p class="greeting-title greeting-title-about">"Hello! Music lovers"</p>
             <h1 class="main-title main-title-about">INTERNATIONAL JazzDay festival 2023</h1>
             <div class="desc-container desc-container-about">
@@ -31,7 +68,7 @@
                 <p class="concert-contact">Please contact us via Email for further question about the International JazzDay Festival 2023!</p>
                 <p class="concert-email-par"><a class="concert-email" href="#">olangobinyam@gmail.com</a></p>
             </div>
-        </section>
+        </div>
     </section>
 
     <section class="logo-section">
@@ -97,9 +134,13 @@
                 </div>
                 <h4 class="logo-title">International JazzDay</h4>
             </div>
-            <div class="rights">
+            <div class="rights unhidden">
                 <p class="date">2023 International JazzDay.</p>
                 <p class="rights-desc">Some Rights Reserved.</p>
+            </div>
+            <div class="rights hidden">
+                <p class="date">2023 International JazzDay. Some Rights Reserved.</p>
+                <p class="rights-desc">የኢትዮጵያ ብሔራዊ መተባበሪያ ስም የ1960 ዓ.ም. የፍርድ ኮድ ነው. ይህ ኮድ ፍርድ እና አርትራ ባለ ቀጥታ መተባበሪያ መጠቀም የሚፈልጉ ናቸው. ከ1960 ጀ/ሜ/ - 2004 ጀ/ሜ/ መተባበሪያ እ. ኤ. 872/2014 ጥ/ 305/2014 ጥ.</p>
             </div>
         </div>
     </footer>

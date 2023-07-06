@@ -131,6 +131,7 @@ a {
 
 .desc-container-about {
   background: rgba(255, 255, 255, 1);
+  margin: 1.5em auto;
 }
 
 .concert-date {
@@ -421,8 +422,9 @@ a {
 /* style footer section */
 
 .footer {
+  background: var(--secondary-color);
   color: var(--primary-color);
-  padding: 2em 1em;
+  padding: 2.5em 1em;
 }
 
 .footer-row {
@@ -493,16 +495,34 @@ a {
 
   .main-logo-cont {
     width: 20%;
-    max-width: 150px;
+    max-width: 190px;
+  }
+
+  .main-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .header-bottom .row {
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
+    gap: 3em;
   }
 
   .nav-link {
     color: var(--primary-color);
+  }
+
+  .red {
+    color: var(--highlight-color);
+  }
+
+  .red-border {
+    border: 4px solid var(--highlight-color);
+    padding: 0.5em 1em;
+    margin-left: 1.25em;
   }
 
   .nav-list {
@@ -574,11 +594,12 @@ a {
   }
 
   .featured .col {
-    width: 40%;
+    width: 45%;
   }
 
   .featured .row {
     margin: 2.5em 0;
+    gap: 1.5em;
   }
 
   .musician-name {
@@ -588,5 +609,23 @@ a {
   .musician-title,
   .musician-detail {
     font-size: 1rem;
+  }
+
+  .partner .container {
+    width: 60%;
+  }
+
+  .footer .row {
+    flex-wrap: nowrap;
+    gap: 0;
+    justify-content: flex-start;
+  }
+
+  .footer .logo {
+    width: 100%;
+  }
+
+  .rights {
+    width: 100%;
   }
 }
