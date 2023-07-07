@@ -20,7 +20,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Personal-Portfolio] <a name="about-project"></a>
+# 📖 [Jazz Concert] <a name="about-project"></a>
 
 Jazz Concert is a project for a concert that display the detail description of the concert, performers as well as the main programs.
 

@@ -457,7 +457,8 @@ a {
 }
 
 .partner-logo {
-  opacity: 0.5;
+  opacity: 0.8;
+  filter: grayscale(100%) contrast(30%);
 }
 
 /* style footer section */
