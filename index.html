@@ -17,8 +17,8 @@
             <div class="header-top">
                 <div class="container row">
                     <ul class="social-list col">
-                        <li class="social-item"><i class="fa-brands fa-facebook-f social-icon"></i></li>
-                        <li class="social-item"><i class="fa-brands fa-twitter social-icon"></i></li>
+                        <li class="social-item"><a href="https://www.facebook.com/intljazzday" target="_blank"><i class="fa-brands fa-facebook-f social-icon"></i></a></li>
+                        <li class="social-item"><a href="https://twitter.com/IntlJazzDay" target="_blank"><i class="fa-brands fa-twitter social-icon"></i></a></li>
                     </ul>
 
                     <ul class="other-list col">
@@ -53,11 +53,27 @@
 
         <section class="head headline">
             <header class="header unhidden">
-                <button class="ham-btn">
+                <button class="ham-btn" id="ham-btn">
                     <img src="images/icons/hamburger-icon.png" alt="hamburger-icon" class="ham-img">
                 </button>
+
+                <menu class="menu hid" id="menu">
+                    <button class="ham-btn close-btn" id="close-btn">
+                        <img src="images/icons/close-btn.png" alt="hamburger-icon" class="ham-img">
+                    </button>
+                    <nav class="nav menu-nav">
+                        <ul class="nav-list menu-nav-list row" id="menu-nav-list">
+                            <li class="nav-item menu-nav-item"><a href="index.html" class="nav-link menu-nav-link">Home</a></li>
+                            <li class="nav-item menu-nav-item"><a href="about.html" class="nav-link menu-nav-link red">About</a></li>
+                            <li class="nav-item menu-nav-item"><a href="#program" class="nav-link menu-nav-link">Program</a></li>
+                            <li class="nav-item menu-nav-item"><a href="#featured" class="nav-link menu-nav-link">Featured Musicians</a></li>
+                            <li class="nav-item menu-nav-item"><a href="#partner" class="nav-link menu-nav-link">Sponsor</a></li>
+                            <li class="nav-item menu-nav-item"><a href="#" class="nav-link menu-nav-link red red-border">IJD Campaign</a></li>
+                        </ul>
+                    </nav>
+                </menu>
             </header>
-            <div class="cont">
+            <div class="headline-cont cont" id="home">
                 <p class="greeting-title">"Hello! Music lovers"</p>
                 <div class="main-title-cont">
                     <h1 class="main-title">INTERNATIONAL JazzDay festival 2023</h1>
@@ -220,5 +236,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="mobile-menu.js"></script>
 </body>
 </html>

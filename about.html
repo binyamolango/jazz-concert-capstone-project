@@ -52,9 +52,25 @@
 
     <section class="head headline">
         <header class="header unhidden">
-            <button class="ham-btn">
+            <button class="ham-btn" id="ham-btn">
                 <img src="images/icons/hamburger-icon.png" alt="hamburger-icon" class="ham-img">
             </button>
+
+            <menu class="menu hid" id="menu">
+                <button class="ham-btn close-btn" id="close-btn">
+                    <img src="images/icons/close-btn.png" alt="hamburger-icon" class="ham-img">
+                </button>
+                <nav class="nav menu-nav">
+                    <ul class="nav-list menu-nav-list row" id="menu-nav-list">
+                        <li class="nav-item menu-nav-item"><a href="index.html" class="nav-link menu-nav-link">Home</a></li>
+                        <li class="nav-item menu-nav-item"><a href="about.html" class="nav-link menu-nav-link red">About</a></li>
+                        <li class="nav-item menu-nav-item"><a href="#program" class="nav-link menu-nav-link">Program</a></li>
+                        <li class="nav-item menu-nav-item"><a href="#featured" class="nav-link menu-nav-link">Featured Musicians</a></li>
+                        <li class="nav-item menu-nav-item"><a href="#partner" class="nav-link menu-nav-link">Sponsor</a></li>
+                        <li class="nav-item menu-nav-item"><a href="#" class="nav-link menu-nav-link red red-border">IJD Campaign</a></li>
+                    </ul>
+                </nav>
+            </menu>
         </header>
         <div class="home hidden container">
             <a href="index.html" class="home-link"><i class="fa-solid fa-house home-color"></i></a>
@@ -63,7 +79,7 @@
             <i class="fa-solid fa-angle-down fa-rotate-270"></i>
             <a href="#" class="home3-link">IJD መተባበሪያ ስም</a>
         </div>
-        <div class="cont text-center">
+        <div class="headline-cont cont text-center">
             <p class="greeting-title greeting-title-about unhidden">"Hello! Music lovers"</p>
             <div class="main-title-cont main-title-cont-about">
                 <h1 class="main-title main-title-about">INTERNATIONAL JazzDay festival 2023</h1>
@@ -166,5 +182,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="mobile-menu.js"></script>
 </body>
 </html>
