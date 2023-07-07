@@ -24,7 +24,7 @@
 
 Jazz Concert is a project for a concert that display the detail description of the concert, performers as well as the main programs.
 
-> [Here is the link to loom walkthrough about the project](https://www.loom.com/share/14cfb3f95e504aeabb669072f40aa18a?sid=0bf830cc-a394-46fe-980e-d9a0801741fc)
+> [Here is a link to loom walkthrough about the project](https://www.loom.com/share/14cfb3f95e504aeabb669072f40aa18a?sid=0bf830cc-a394-46fe-980e-d9a0801741fc)
 
 ## 🛠 Built With <a name="built-with"></a>
 
