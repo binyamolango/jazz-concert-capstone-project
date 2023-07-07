@@ -97,7 +97,7 @@ a {
 
 .menu {
   position: absolute;
-  z-index: 70;
+  z-index: 2;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
