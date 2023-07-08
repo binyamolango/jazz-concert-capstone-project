@@ -74,11 +74,12 @@ a {
 /* header and headline style */
 
 .head {
+  position: relative;
   background-image: url(images/backgrounds/music-background-notes-beige-40726604.webp);
 }
 
-.header {
-  margin-bottom: 2.5em;
+.headline-cont {
+  padding-top: 2.5em;
 }
 
 .ham-btn {
@@ -86,6 +87,43 @@ a {
   max-width: 40px;
   margin: 1em 0 0 1.5em;
   opacity: 0.7;
+}
+
+/* style the mobile-menu */
+
+.hid {
+  display: none;
+}
+
+.menu {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(135, 132, 132, 0.97);
+  width: 100%;
+  height: 100%;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75%;
+}
+
+.menu-nav-list {
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-nav-item {
+  font-size: 1.5rem;
+}
+
+.menu-nav-link {
+  color: var(--primary-color);
 }
 
 .greeting-title,
@@ -419,7 +457,8 @@ a {
 }
 
 .partner-logo {
-  opacity: 0.5;
+  opacity: 0.8;
+  filter: grayscale(100%) contrast(30%);
 }
 
 /* style footer section */
@@ -509,7 +548,11 @@ a {
   .header-bottom .row {
     justify-content: space-between;
     align-items: center;
-    gap: 3em;
+    gap: 0;
+  }
+
+  .nav-item + .nav-item {
+    margin-left: 2.75em;
   }
 
   .nav-link {
@@ -679,7 +722,7 @@ a {
   }
 
   .concert-location {
-    font-size: 1.325;
+    font-size: 1.25rem;
   }
 
   .concert-contact-cont {
