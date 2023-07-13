@@ -24,13 +24,13 @@
 
 Jazz Concert is a project for a concert that displays a detailed description of the concert, performers, and the main programs.
 
-> [Here is a link to loom walkthrough about the project](https://www.loom.com/share/14cfb3f95e504aeabb669072f40aa18a?sid=0bf830cc-a394-46fe-980e-d9a0801741fc)
+> [Here is a link to a loom walkthrough about the project](https://www.loom.com/share/14cfb3f95e504aeabb669072f40aa18a?sid=0bf830cc-a394-46fe-980e-d9a0801741fc)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The tech stack that is used in this project is the combination of three technologies: HTML, CSS and JavaScript.
+> The tech stack that is used in this project is a combination of three technologies: HTML, CSS, and JavaScript.
 
 <details>
   <summary>Client</summary>
@@ -74,7 +74,7 @@ Jazz Concert is a project for a concert that displays a detailed description of 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://binyamolango.github.io/)
+- [Live Demo Link](https://binyamolango.github.io/jazz-concert/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +88,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: a computer, mobile or tablet and you need to install and learn how to use necessary applications on your device like web browser, git, github and others
+In order to run this project you need a computer, mobile, or tablet and you need to install and learn how to use necessary applications on your device like web browser, git, GitHub, and others
 
 <!--
 Example command:
