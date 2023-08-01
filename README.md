@@ -60,8 +60,6 @@ Jazz Concert is a project for a concert that displays a detailed description of 
   </ul>
 </details> -->
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - **[Include multiple pages]**
