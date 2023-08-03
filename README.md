@@ -72,7 +72,7 @@ Jazz Concert is a project for a concert that displays a detailed description of 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://binyamolango.github.io/jazz-concert/)
+- [Live Demo Link](https://binyamolango.github.io/jazz-concert-capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +100,7 @@ Example command:
 
 Clone this repository to your desired folder: by using this command
 `cd 'desired folder'`
-`git clone https://github.com/binyamolango/jazz-concert.git`
+`git clone https://github.com/binyamolango/jazz-concert-capstone-project.git`
 
 <!--
 Example commands:
